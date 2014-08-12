@@ -1,0 +1,4 @@
+C:\Users\Carlos Luis\documents\visual studio 2010\Projects\Galeria\Galeria\bin\Galeria.dll
+C:\Users\Carlos Luis\documents\visual studio 2010\Projects\Galeria\Galeria\bin\Galeria.pdb
+C:\Users\Carlos Luis\documents\visual studio 2010\Projects\Galeria\Galeria\obj\Debug\Galeria.dll
+C:\Users\Carlos Luis\documents\visual studio 2010\Projects\Galeria\Galeria\obj\Debug\Galeria.pdb

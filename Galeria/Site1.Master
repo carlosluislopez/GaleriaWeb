@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Galeria.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 70%;
+            padding-bottom:20px;
+            padding-top:20px;
+        }
+        .style3
+        {
+            width: 70%;
+            font-size:14pt;
+            color:rgb(164,160,161);
+            padding-bottom:10px;
+            padding-top:10px;
+        }
+        .style4
+        {
+            width: 70%;
+            font-size:10pt;
+            color:rgb(164,160,161);
+            padding-bottom:10px;
+            padding-top:10px;
+        }
+        body
+        {
+            margin-top:0px;
+            margin-bottom:0px;
+            margin-left:0px;
+            margin-right:0px;
+            font-family:Verdana;
+            font-size:11pt;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table align="center" cellpadding="0" cellspacing="0" class="style1">
+            <tr>
+                <td style="background-color:rgb(34,34,34); color:Black;">
+                    <table align="center" cellpadding="0" cellspacing="0" class="style3">
+                        <tr>
+                                <td>Los Rompe Discotekas web app
+                                </td>
+                                <td>
+                                    <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="#336699" 
+                                        NavigateUrl="~/Registrar.aspx">Registrarse</asp:HyperLink>
+                                </td>
+                                <td>
+                                    <asp:HyperLink ID="hlSesionIniciar" runat="server" ForeColor="#336699" 
+                                        NavigateUrl="~/Login.aspx" Visible="False">Iniciar Sesion</asp:HyperLink>
+                                    <asp:HyperLink ID="hlSesionCerrar" runat="server" ForeColor="#336699" 
+                                        NavigateUrl="~/CerrarSesion.aspx" Visible="False">Cerrar Sesion</asp:HyperLink>
+                                </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                    <table align="center" cellpadding="0" cellspacing="0" class="style2">
+                        <tr>
+                            <td>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                    </div>
+    </td>
+            </tr>
+            <tr>
+                <td>
+                    <table align="center" cellpadding="0" cellspacing="0" class="style4">
+                        <tr>
+                                <td>2014 - Aplicacion ASP.NET de los Rompe Discotekas, Doctor flow is comming
+                                </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
